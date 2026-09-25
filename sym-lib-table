@@ -1,5 +1,4 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "CW308_LIB") (type "KiCad") (uri "${KIPRJMOD}/CW308_LIB.kicad_sym") (options "") (descr "CW308 Connectors"))
-	(lib (name "87832-1420") (type "KiCad") (uri "${KIPRJMOD}/87832-1420.kicad_sym") (options "") (descr ""))
 )
