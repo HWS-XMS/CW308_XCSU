@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# KiCad local history / backups
+.history/
+*-backups/
+fp-info-cache
+
+# KiCad per-user local project settings (not shared)
+*.kicad_prl
+
+# KiCad project lock file (transient, contains hostname/username)
+~*.lck
+
+# Generated netlist (embeds absolute local paths)
+*.net
+
+# Editor / KiCad backups
+*.bak
+*~
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
