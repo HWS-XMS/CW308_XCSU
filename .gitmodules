@@ -1,0 +1,6 @@
+[submodule "aes_example/aes"]
+	path = aes_example/aes
+	url = https://github.com/HWS-XMS/aes.git
+[submodule "aes_example/uart_sv"]
+	path = aes_example/uart_sv
+	url = git@github.com:HWS-XMS/UART_SV.git

@@ -1,0 +1,20 @@
+set_property PACKAGE_PIN AE18     [get_ports clkin]
+set_property IOSTANDARD  LVCMOS33 [get_ports clkin]
+set_property PACKAGE_PIN AC17     [get_ports clkout]
+set_property IOSTANDARD  LVCMOS33 [get_ports clkout]
+create_clock -name clkin -period 100.000 -waveform {0.000 50.000} [get_ports clkin]
+
+set_property PACKAGE_PIN AB17     [get_ports gpio1]
+set_property IOSTANDARD  LVCMOS33 [get_ports gpio1]
+set_property PACKAGE_PIN AA17     [get_ports gpio2]
+set_property IOSTANDARD  LVCMOS33 [get_ports gpio2]
+set_property PACKAGE_PIN AA20     [get_ports gpio4]
+set_property IOSTANDARD  LVCMOS33 [get_ports gpio4]
+set_property PACKAGE_PIN Y19      [get_ports nrst]
+set_property IOSTANDARD  LVCMOS33 [get_ports nrst]
+
+set_property PACKAGE_PIN V19      [get_ports led3]
+set_property IOSTANDARD  LVCMOS33 [get_ports led3]
+
+set_property CONFIG_MODE SPIx4                     [current_design]
+set_property BITSTREAM.CONFIG.UNUSEDPIN PULLNONE   [current_design]

@@ -21,3 +21,17 @@ fp-info-cache
 _autosave-*
 *.kicad_pcb-bak
 *.kicad_sch-bak
+
+# Vivado build output
+aes_example/build/
+xsim.dir/
+*.jou
+*.pb
+*.wdb
+*.str
+.Xil/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
